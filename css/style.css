@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav{
+    margin-top: 70%;
+    margin-bottom: 90%;
+    background-color: aliceblue;
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 120px;
+}
+.nav button{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 0px;
+    background-color:rgb(28, 61, 90);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    color: white;
+    transition: background-color, color 0.15s;
+}
+.nav button:hover{
+    color: rgb(28, 61, 90);
+    background-color: white;
+}
+.content{
+    display:inline-block;
+    background-color: aliceblue;
+    height: auto;
+    margin-left: 170px;
+    margin-top: 200px;
+}
+.name{
+    font-size: 70px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
