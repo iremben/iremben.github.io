@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: hind;
 }
 p{
     margin-right: 20px;
     margin-left: 20px;
+    text-align: right;
+    font-weight: 500;
 }
 .nav{
     margin-top: 70%;
@@ -35,15 +38,35 @@ p{
     background-color: white;
 }
 .content{
+    width: 600px;
+    margin-left: 200px;
+}
+.header{
     display:inline-block;
     background-color: aliceblue;
     height: auto;
-    margin-left: 170px;
     margin-top: 200px;
 }
-.name{
+.name{ 
     font-size: 70px;
-    text-align: right;
-    margin-bottom: 20px;
+}
+.line1 div{
+    display: inline-block;
+    width: 197px;
+    height: 300px;
+    background-color: aqua;
+}
+.line2 div{
+    display: inline-block;
+
+}
+.cover{
+    display: inline-block;
+    height: 167px;
+    width: 167px;
+    object-fit:cover;
+    margin: 10px;
+    padding: 5px;
+
 }
 
